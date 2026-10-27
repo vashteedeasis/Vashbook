@@ -1,5 +1,6 @@
 ---
 const pageTitle = "My Blog";
+import "../styles/global.css";
 ---
 
 <html lang="en">
@@ -9,7 +10,17 @@ const pageTitle = "My Blog";
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+
 		<title>{pageTitle}</title>
+		
+
 	</head>
 	<body>
 

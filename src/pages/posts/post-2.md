@@ -1,5 +1,6 @@
 ---
 layout: ../../layouts/PostLayout.astro
+
 ---
 
 # Post 2

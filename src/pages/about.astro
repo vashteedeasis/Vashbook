@@ -12,6 +12,7 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Astro",];
 const happy = true;
 const finished = false;
 const goal = 3;
+import "../styles/global.css";
 ---
 
 <html lang="en">
@@ -22,6 +23,12 @@ const goal = 3;
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
          <title>{pageTitle}</title>
+         <style>
+      h1 {
+        color: rgb(128, 0, 28);
+        font-size: 4rem;
+      }
+    </style>
 	</head>
 	<body>
 		<body>
